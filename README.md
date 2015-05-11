@@ -4,8 +4,11 @@
 $>need pintos (optional)
 
 $>cd pintos/src/threads
+
 $>make
+
 $>cd build
+
 $>pintos
 
 $>pintos -v -k -T 60 --qemu -- -q run alarm-single
