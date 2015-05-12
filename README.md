@@ -1,4 +1,4 @@
-# NWEN301_P1
+# NWEN301 Pintos Project 1
 
 ## Running pintos:
 $>need pintos (optional)
