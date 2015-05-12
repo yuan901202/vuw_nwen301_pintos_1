@@ -49,9 +49,13 @@ add void thread_sleep (int64_t);
 add void thread_wake (void);
 
 ## Code has been add like:
+
 /* my code begins */
+
 CODE HERE
+
 /* my code ends */
+
 
 ## Design Ideas:
 In timer_sleep(), while loop is not efficient due to loop ececute thread_yield(). This will lead to have the busy waiting, so we need to put thread to sleep when busy and wake when not busy.
