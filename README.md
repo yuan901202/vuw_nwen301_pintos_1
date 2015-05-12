@@ -59,8 +59,14 @@ In timer_sleep(), while loop is not efficient due to loop ececute thread_yield()
 So we can put threads in timer_sleep() on block status, when the sleep time passed, wake up the threads, and then put it on ready status.
 
 ## Results:
+
 1) alarm-single        PASSED
+
 2) alarm-multiple      PASSED
+
 3) alarm-simultaneous  PASSED
+
 4) alarm-zero          PASSED
+
 5) alarm-negative      PASSED
+
