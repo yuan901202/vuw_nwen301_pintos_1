@@ -1,4 +1,4 @@
-# NWEN301 Pintos Project 1
+# Pintos - Alarm Clock
 
 ## Running pintos:
 $>need pintos (optional)
