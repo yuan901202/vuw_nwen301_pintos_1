@@ -38,15 +38,22 @@ These are also run when you execute make check. You may need to make clean on oc
 
 ## Modified Files:
 1) timer.c
+
 modified timer_sleep()
 
 2) thread.c
+
 add thread_sleep()
+
 add thread_wake()
 
+
 3) thread.h
+
 add void thread_sleep (int64_t);
+
 add void thread_wake (void);
+
 
 ## Code has been add like:
 
